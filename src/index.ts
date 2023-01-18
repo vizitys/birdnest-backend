@@ -6,7 +6,7 @@ import { pilots } from "./watch";
 const app = express();
 const port = 5000;
 
-app.use(cors);
+app.use(cors());
 
 app.get("/", async (req, res) => {
   res.status(200).json(pilots);
