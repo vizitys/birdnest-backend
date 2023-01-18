@@ -104,11 +104,6 @@ async function updateData() {
       console.log(`Successfully deleted pilot ${pilot} with ID ${pilotId}`);
     }
   });
-
-  console.log(
-    "Updated the pilot list successfully, current pilot list:",
-    pilots
-  );
 }
 
 updateData();
