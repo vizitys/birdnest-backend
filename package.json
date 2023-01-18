@@ -4,7 +4,6 @@
   "main": "src",
   "description": "Solution backend for Reaktor's Birdnest challenge",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "dev": "tsnd --rs --respawn --transpile-only ./src/index.ts",
